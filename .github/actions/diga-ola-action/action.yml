@@ -2,5 +2,7 @@ name: DigaOla
 description: "Action para printar Olá no console"
 
 runs:
+using: "composite"
+steps:
   - name: Diga DigaOla"
     run: echo "Ola"
