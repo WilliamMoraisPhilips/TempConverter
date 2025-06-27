@@ -1,0 +1,11 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Aplicar permissão ao gradlew
+        uses: ./.github/actions/permissao-gradlew
+
+      - name: Executar build
+        run: ./gradlew build
