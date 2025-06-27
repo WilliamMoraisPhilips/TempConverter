@@ -1,9 +1,0 @@
-name: PermissaoGradlew
-description: "Action para configurar permissão de execução no gradlew"
-
-runs:
-  using: "composite"
-  steps:
-    - name: Dar permissão de execução ao gradlew
-      run: chmod +x ./gradlew
-      shell: bash

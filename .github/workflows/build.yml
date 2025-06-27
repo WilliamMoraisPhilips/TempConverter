@@ -24,6 +24,6 @@ jobs:
               uses: gradle/actions/setup-gradle@v4
 
             - name: Set Gradle Permission
-              run: chmod +x ./gradlew
+              uses: ./.github/actions/permissao-gradle-action
 
             - run: ./gradlew build
