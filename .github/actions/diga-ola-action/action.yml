@@ -4,6 +4,6 @@ description: "Action para printar Olá no console"
 runs:
 using: "composite"
 steps:
-  - name: Diga DigaOla
+  - name: Diga Ola
     run: echo "Ola"
     shell: bash
