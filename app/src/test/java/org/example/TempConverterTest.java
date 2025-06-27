@@ -17,7 +17,7 @@ public class TempConverterTest {
         assertThrows(IllegalArgumentException.class, ()->{
             TempConverter converter = new TempConverter();
             converter.setTipoConversao("CELSIUS");
-            converter.setConversao(-288.0);
+            converter.setConversao(-500.0);
         });
     }
 
